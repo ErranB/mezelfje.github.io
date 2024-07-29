@@ -9,16 +9,23 @@
 <body>
 
 <nav>
-
-    <div class="navigation">
-        <img src="img/logo/Me_Logo_blauw_met bollen_doorzichtig.png">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-    </div>
+    <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">Over</a></li>
+        <li><a href="#contact">Diensten</a></li>
+        <li><a href="#about">Werkwijze</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+    <ul>
+        <li class="disabled"><a href="#"><img src="img/logo/Me_Logo_blauw_met bollen_doorzichtig.png"></li></a>
+        <li class="hideOnMobile"><a href="#home">Home</a></li>
+        <li class="hideOnMobile"><a href="#news">Over</a></li>
+        <li class="hideOnMobile"><a href="#contact">Diensten</a></li>
+        <li class="hideOnMobile"><a href="#about">Werkwijze</a></li>
+        <li class="hideOnMobile"><a href="#Contact">Contact</a></li>
+        <li class="menu" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
 </nav>
 
 <section>
@@ -31,6 +38,17 @@
   <p>Footer</p>
 </footer>
 
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
 </body>
 </html>
 

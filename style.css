@@ -6,6 +6,7 @@
 body{
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FBF7F4;
 }
 
 nav{
@@ -57,7 +58,8 @@ nav li:first-child{
 }
 
 nav img{
-    max-height: 90px;
+    max-height: 80px;
+
 }
 
 .sidebar{
@@ -116,14 +118,19 @@ nav img{
 }
 
 .dancing-girl-img{
-    width: 95%;
+    width: 100%;
+    border-bottom-left-radius: 50px 20px;
+    border-bottom-right-radius: 50px 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0.7;
 }
 
 .dancing-girl-top-right{
-    width: 50%;
+    width: 20%;
     position: absolute;
-    bottom: 45%;
-    right: 42%;
+    bottom: 20%;
+    right: 75%;
+    filter: brightness(200%);
 }
 
 .mezelfje-img{
@@ -132,10 +139,92 @@ nav img{
 
 .dancing-girl-bottom-right{
     position: absolute;
+    width: 10%;
     bottom: 0%;
     right: 40%;
 }
 
 .flower-img{
     width: 50%;
+}
+
+.welzijn{
+    background-color: #183059;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%
+}
+
+@media(max-width: 800px){
+    .welzijn{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+.welzijn h1{
+    color: #B8336A;
+    font-size: clamp(1.2rem, 2.5vw, 5.5rem);
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-weight: lighter;
+    font: Geneva;
+}
+
+.welzijn-voor{
+    color: white;
+}
+
+.welzijn a{
+    text-align: left;
+    color: white;
+    font-size: clamp(1rem, 1.2vw, 5.5rem);
+    font-weight: lighter;
+}
+
+.welzijn li{
+    text-align: left;
+    color: white;
+    font-size: clamp(1rem, 1.2vw, 5.5rem);
+    font-weight: 100;
+}
+
+.welzijn-cap{
+    text-transform: uppercase;
+    font-size: clamp(1rem, 3vw, 5.5rem);
+}
+
+.startpunt{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-weight: lighter;
+    font-size: clamp(1rem, 1.2vw, 5.5rem);
+}
+
+@media(max-width: 800px){
+    .startpunt{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+.startpunt h1{
+    color: #B8336A;
+    text-align: center;
+}
+
+.startpunt a{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.startpunt img{
+    width: 5%;
+    padding-right: 5%;
 }

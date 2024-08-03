@@ -215,16 +215,23 @@ nav img{
 .startpunt h1{
     color: #B8336A;
     text-align: center;
+    font-weight: lighter;
 }
 
 .startpunt a{
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start
+    color: #183059;
+    font-size: clamp(1rem, 1.2vw, 5.5rem);
+    text-align: center;
 }
 
-.startpunt img{
-    width: 5%;
-    padding-right: 5%;
+.numbers{
+    font-family: Lucida Handwriting;
+    color: #B8336A;
+    font-size: clamp(1.2rem, 4vw, 5.5rem);
+}
+
+.pop{
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 5%;
 }

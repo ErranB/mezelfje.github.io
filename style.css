@@ -5,7 +5,7 @@
 
 body{
     min-height: 100vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #FBF7F4;
 }
 
@@ -60,6 +60,52 @@ nav li:first-child{
 nav img{
     max-height: 80px;
 
+}
+
+.nav-over{
+    background-color: #fdeee3;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-over ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-over li{
+    height: 30px;
+}
+
+.nav-over a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #B8336A;
+    font-size: medium;
+}
+
+.nav-over .disabled{
+    pointer-events: none;
+}
+
+.nav-over a:hover{
+    background-color: #eed1bb;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.highlighted{
+    border-radius: 5px;
+    border: 2px solid black;    
+}
+
+.nav-over a:hover .dropdown{
+    display: block;
 }
 
 .sidebar{

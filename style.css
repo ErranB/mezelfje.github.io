@@ -257,7 +257,7 @@ nav img{
     padding-right: 20%;
     padding-top: 5%;
     font-weight: lighter;
-    font-size: clamp(1rem, 1.2vw, 5.5rem);
+    font-size: clamp(1rem, 1.5vw, 5.5rem);
 }
 
 @media(max-width: 800px){
@@ -274,7 +274,6 @@ nav img{
 }
 
 .startpunt a{
-    color: #183059;
     font-size: clamp(1rem, 1.2vw, 5.5rem);
     text-align: center;
 }
@@ -284,7 +283,6 @@ nav img{
     font-weight: lighter;
     font-size: clamp(1rem, 1.2vw, 5.5rem);
     padding-top: 5%;
-    color: #183059;
 }
 
 .numbers{
@@ -347,3 +345,40 @@ nav img{
     background-color: #2a5399;
     transition: all 0.2s;
   }
+
+  .kracht{
+    display: flex;
+    align-items: self-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    font-weight: lighter;
+    font-size: clamp(1rem, 1.2vw, 5.5rem);
+  }
+
+  .kracht img{
+    width: 38%;
+  }
+
+  .kracht-t{
+    font-size: clamp(1rem, 1.2vw, 5.5rem);
+  }
+
+  .kracht-th{
+    font-size: clamp(1rem, 3vw, 5.5rem);
+    font-family: fantasy;
+  }
+
+  .kracht-t h3{
+    font-size: clamp(1rem, 1.2vw, 5.5rem);
+    font-weight: lighter;
+  }
+
+  .kracht-t li{
+    padding-top: 1%;
+  }
+
+  .kracht-t a{
+    font-size: clamp(1rem, 1.2vw, 5.5rem);
+    text-align: center;
+}

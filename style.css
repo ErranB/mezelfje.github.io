@@ -5,7 +5,7 @@
 
 body{
     min-height: 100vh;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Lato", sans-serif;
     background-color: #FBF7F4;
 }
 
@@ -215,7 +215,6 @@ nav img{
     text-align: center;
     padding-top: 5%;
     padding-bottom: 10%;
-    font-weight: lighter;
     font: Geneva;
 }
 
@@ -226,7 +225,6 @@ nav img{
     text-align: center;
     padding-top: 5%;
     padding-bottom: 10%;
-    font-weight: lighter;
 }
 
 .welzijn-voor{
@@ -371,7 +369,6 @@ nav img{
 
   .kracht-t h3{
     font-size: clamp(1rem, 1.2vw, 5.5rem);
-    font-weight: lighter;
   }
 
   .kracht-t li{

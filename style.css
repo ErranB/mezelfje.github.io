@@ -198,7 +198,7 @@ nav img{
     background-color: #183059;
     padding-left: 20%;
     padding-right: 20%;
-    padding-bottom: 5%
+    padding-bottom: 5%;
 }
 
 @media(max-width: 800px){
@@ -378,4 +378,28 @@ nav img{
   .kracht-t a{
     font-size: clamp(1rem, 1.2vw, 5.5rem);
     text-align: center;
+}
+
+.thuiskomen{
+    background-image: url(img/homepage/Me_Homepage_8.png);
+    background-color:#183059;
+    background-size: cover;
+    padding-left: 15%;
+    padding-right: 20%;
+    padding-bottom: 15%;
+    padding-top: 15%;
+}
+
+.thuiskomen h2{
+    font-size: clamp(1rem, 1.5vw, 5.5rem);
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+}
+
+.thuiskomen h1{
+    font-size: clamp(1rem, 1.8vw, 5.5rem);
+    font-family: fantasy;
+    color: white;
+    font-weight: lighter;
 }

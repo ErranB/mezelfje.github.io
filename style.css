@@ -403,3 +403,43 @@ nav img{
     color: white;
     font-weight: lighter;
 }
+
+footer {
+    background-color: #183059;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer img{
+    max-width: 10%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+.footer-box{
+    vertical-align: middle;
+}
+
+.footer-icon{
+    max-width: 80%;
+    float: center;
+}
+
+footer h2{
+    font-size: clamp(1rem, 1.0vw, 5.5rem);
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+footer h3{
+    font-size: clamp(0.5rem, 0.8vw, 1rem);
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}

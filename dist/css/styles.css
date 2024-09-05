@@ -10863,14 +10863,15 @@ body {
 
 hr.divider {
   height: 0.2rem;
-  max-width: 3.25rem;
+  max-width: 5rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #CC148F;
+  color: #CC148F;
   opacity: 1;
 }
 
 hr.divider-light {
-  background-color: #fff;
+  background-color: #CC148F;
 }
 
 #mainNav {
@@ -11174,4 +11175,8 @@ header.masthead h1, header.masthead .h1 {
 
 .mezelfje{
   width: 70%;
+}
+
+.icon{
+  width: 30%;
 }

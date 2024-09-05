@@ -10938,7 +10938,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/resizecom_pexels-belle-co-99483-1000445.jpg");
+  background: url("../assets/img/HomePage/6.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11170,4 +11170,8 @@ header.masthead h1, header.masthead .h1 {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+
+.mezelfje{
+  width: 70%;
 }

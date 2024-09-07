@@ -54,12 +54,12 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Arial, Helvetica, sans-serif";
+  --bs-font-sans-serif: "lato-light, lato, sans-serif";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Arial, Helvetica, sans-serif;
+  --bs-body-font-family: lato-light, lato, sans-serif;
   --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 400;
+  --bs-body-font-weight: 100;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fbf7f4;
@@ -2863,11 +2863,11 @@ textarea.form-control-lg {
 }
 
 .btn-secondary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #6c757d;
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: rgb(24, 48, 89);
   --bs-btn-border-color: #6c757d;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #5c636a;
+  --bs-btn-hover-bg: rgb(190, 214, 222);
   --bs-btn-hover-border-color: #565e64;
   --bs-btn-focus-shadow-rgb: 130, 138, 145;
   --bs-btn-active-color: #fff;
@@ -7949,7 +7949,7 @@ textarea.form-control-lg {
 }
 
 .fw-lighter {
-  font-weight: lighter !important;
+  font-weight: 50 !important;
 }
 
 .fw-normal {
@@ -10877,7 +10877,7 @@ hr.divider {
 }
 
 hr.divider-light {
-  background-color: #CC148F;
+  background-color: rgb(184, 51, 106);
 }
 
 #mainNav {

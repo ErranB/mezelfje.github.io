@@ -8085,6 +8085,7 @@ textarea.form-control-lg {
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
+
 .text-orange{
   --bs-text-opacity: 1;
   color: rgb(244, 98, 58)

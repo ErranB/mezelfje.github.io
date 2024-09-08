@@ -44,6 +44,7 @@
   --bs-dark: #212529;
   --bs-primary-rgb: 24, 48, 89;
   --bs-secondary-rgb:219, 219, 219;
+  --bs-three-rgb: 227, 220, 220;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -8147,6 +8148,11 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-three {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-three-rgb), var(--bs-bg-opacity)) !important;
+}
+
 .bg-success {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
@@ -11124,4 +11130,8 @@ header.masthead h1, header.masthead .h1 {
 
 .samenwerking{
   width: 100%;
+}
+
+.person{
+  width: 60%;
 }

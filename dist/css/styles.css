@@ -8143,6 +8143,14 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-end { 
+  background: url("../assets/img/HomePage/Home_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -11134,4 +11142,14 @@ header.masthead h1, header.masthead .h1 {
 
 .person{
   width: 60%;
+  padding-bottom: 10%;
+}
+
+.list {
+  display: inline-block;
+  text-align: left; 
+  }
+
+.Arrow{
+  width: 40%;
 }

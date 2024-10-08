@@ -10886,6 +10886,10 @@ body {
   color: rgba(255, 255, 255, 0.75) !important;
 }
 
+.text-bg{
+  color: #fbf7f4 !important;
+}
+
 .btn-xl {
   padding: 1rem 1.2rem;
   font-size: 1.18rem;

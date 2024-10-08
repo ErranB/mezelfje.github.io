@@ -2861,7 +2861,14 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #FBF7F4;
   --bs-btn-disabled-bg: #f4623a;
   --bs-btn-disabled-border-color: #f4623a;
+}
+
+.btn-right{
   float: right;
+}
+
+.btn-left{
+  float: left;
 }
 
 .btn-secondary {
@@ -11002,6 +11009,38 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+header.mastheadDiensten {
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+  background: url("../assets/img/Diensten/Diensten_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.mastheadDiensten h1, header.masthead .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.mastheadDiensten {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 1rem;
+  }
+  header.mastheadDiensten p {
+    font-size: 1.15rem;
+  }
+  header.mastheadDiensten h1, header.mastheadDiensten .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.mastheadDiensten h1, header.mastheadDiensten .h1 {
     font-size: 3.5rem;
   }
 }
